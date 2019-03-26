@@ -6,9 +6,9 @@ This project shows the source code for my personal portfolio website
 You may view the website here: [ken-snow.com](http:www.ken-snow.com)
 
 #### Project Links
-+[questOutside](https://github.com/kensnow/questOutside)
-+[pretty bls](https://github.com/kensnow/pretty-bls)
-+[ski-local](https://github.com/kensnow/ski-local)
++ [questOutside](https://github.com/kensnow/questOutside)
++ [pretty bls](https://github.com/kensnow/pretty-bls)
++ [ski-local](https://github.com/kensnow/ski-local)
 
 ## Tech
 My project features the following Tech:
