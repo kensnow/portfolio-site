@@ -1,12 +1,23 @@
-# This project shows the source code for my personal portfolio website
+# Introduction
 
+This project shows the source code for my personal portfolio website
+
+## Link
 You may view the website here: [ken-snow.com](http:www.ken-snow.com)
 
-My project features the following Tech:
-- React, bootstraped with [Create React App](https://github.com/facebook/create-react-app).
-- React Router
+#### Project Links
+[questOutside](https://github.com/kensnow/questOutside)
+[pretty bls](https://github.com/kensnow/pretty-bls)
+[ski-local](https://github.com/kensnow/ski-local)
 
-This is a Single Page Application (SPA) using Routes to link together content.  The main Routing component is Mainview.js
+## Tech
+My project features the following Tech:
++ ReactJS
++ React Router
+
+
+## About the code
+This is a Single Page Application (SPA) using React Routes to link together content.  The main Routing component is Mainview.js
 
 The projects displayed are card-based, and loaded in from info.js
 
