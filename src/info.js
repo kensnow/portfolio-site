@@ -3,6 +3,7 @@ const projectInfo = [
     {
     "title":"pretty bls",
     "subTitle":"Important data should look pretty good",
+    "link":"https://pretty-bls.herokuapp.com/",
     "description": "This project's goal is to display public data from the Bureau of Labor Statistics in a pretty format, using industry standard data visualization and a cutting edge front end framework.",
     "technology":["ReactJS", "d3 Data Visualization", "Axios API"],
     "thumbnail":`${require('./styles/assets/pretty-bls-sq.png')}`,
@@ -15,6 +16,13 @@ const projectInfo = [
     "technology":["ReactJS", "MongoDB", "Express", "NodeJS", "Axios API"],
     "thumbnail":`${require('./styles/assets/quest-outside-sq.png')}`,
     "github":"https://github.com/kensnow/questOutside"
+    },
+    {
+        "title":"200 Countries Over 200 Years",
+        "description":"This is a data visualization of global life expectancy plotted along with GDP.  The project's inspiration is to recreate the famous Gapminder chart.  The chart was built leveraging the data rendering and animation capabilities of d3 as well as React.",
+        "technology":["ReactJS", "d3"],
+        "thumbnail":`${require('./styles/assets/life-wealth-chart.gif')}`,
+        "github":"https://github.com/kensnow/life-wealth-circle-chart"
     },
     {
     "title":"Ski Local",

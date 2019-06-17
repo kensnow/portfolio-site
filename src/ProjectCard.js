@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-function ProjectCard({ title, subTitle, description, technology, thumbnail, github, type }) {
+function ProjectCard({ title, subTitle, link, description, technology, thumbnail, github, type }) {
 
     const technologyGroup = technology.join(', ')
 
@@ -34,6 +34,7 @@ function ProjectCard({ title, subTitle, description, technology, thumbnail, gith
                         <h2>{title}</h2>
                         <h4>{subTitle}</h4>
                         <a href={github}>{title} on github</a>
+                        {link && <a href={link}>Website</a>}
                         <p className="project-description-full">{description}</p>
                         <h5>Tech: {technologyGroup}</h5>
                         <p>You can see the code for {title} on <a href={github}>github</a></p>
